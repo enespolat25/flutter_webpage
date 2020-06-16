@@ -18,7 +18,7 @@ class LandingPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: Text(
-                "We have taken each and every project handed over to us as a challenge, which has helped us achieve a high project success rate.",
+                "Bu uygulamada ekran boyutuna duyarlı bir web sayfası Flutter ile nasıl yapılır buna bakacağız.",
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),
@@ -31,7 +31,7 @@ class LandingPage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(
                     vertical: 20.0, horizontal: 40.0),
                 child: Text(
-                  "Our Packages",
+                  "Ürünler",
                   style: TextStyle(color: Colors.red),
                 ),
               ),
