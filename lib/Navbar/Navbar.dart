@@ -27,7 +27,7 @@ class DesktopNavbar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Text(
-              "RetroPortal Studio",
+              "Enes Polat Websayfası",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
@@ -36,21 +36,21 @@ class DesktopNavbar extends StatelessWidget {
             Row(
               children: <Widget>[
                 Text(
-                  "Home",
+                  "Anasayfa",
                   style: TextStyle(color: Colors.white),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "About Us",
+                  "Hakkımızda",
                   style: TextStyle(color: Colors.white),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "Portfolio",
+                  "Özgeçmiş",
                   style: TextStyle(color: Colors.white),
                 ),
                 SizedBox(
@@ -62,7 +62,7 @@ class DesktopNavbar extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
                   onPressed: () {},
                   child: Text(
-                    "Get Started",
+                    "Giriş",
                     style: TextStyle(color: Colors.white),
                   ),
                 )
@@ -83,7 +83,7 @@ class MobileNavbar extends StatelessWidget {
       child: Container(
         child: Column(children: <Widget>[
           Text(
-            "RetroPortal Studio",
+            "Enes Polat Websayfası",
             style: TextStyle(
                 fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30),
           ),
@@ -93,21 +93,21 @@ class MobileNavbar extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  "Home",
+                  "Anasayfa",
                   style: TextStyle(color: Colors.white),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "About Us",
+                  "Hakkımızda",
                   style: TextStyle(color: Colors.white),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "Portfolio",
+                  "Özgeçmiş",
                   style: TextStyle(color: Colors.white),
                 ),
               ],
